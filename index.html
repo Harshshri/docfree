@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zip File Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Zip File Downloader</h1>
+        <div class="upload-section">
+            <h2>Upload a Zip File</h2>
+            <form id="uploadForm">
+                <input type="file" id="fileInput" accept=".zip" required>
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+        <div class="download-section">
+            <h2>Download Section</h2>
+            <p id="downloadStatus">No file uploaded yet</p>
+            <button id="downloadBtn" disabled>Download File</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
