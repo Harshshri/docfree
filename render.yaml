@@ -1,23 +1,5 @@
 static_sites:
   - name: docfree
     type: static
-    buildCommand: |
-      #!/bin/bash
-      set -e
-      echo "Starting build process..."
-      
-      # Create publish directory
-      mkdir -p public
-      
-      # Copy all necessary files
-      echo "Copying files to public directory..."
-      cp index.html public/
-      cp styles.css public/
-      cp script.js public/
-      
-      # Verify files were copied
-      echo "Verifying files..."
-      ls -la public/
-      
-      echo "Build completed successfully!"
+    buildCommand: mkdir -p public && cp index.html styles.css script.js public/
     publishPath: public 
