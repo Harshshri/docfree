@@ -1,5 +1,5 @@
 static_sites:
   - name: docfree
     type: static
-    buildCommand: echo "No build needed"
-    publishPath: . 
+    buildCommand: ./build.sh
+    publishPath: public 
