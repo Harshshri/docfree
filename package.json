@@ -1,13 +1,6 @@
 {
-  "name": "zip-file-downloader",
+  "name": "docfree",
   "version": "1.0.0",
-  "description": "A simple website for uploading and downloading ZIP files",
-  "main": "index.html",
-  "scripts": {
-    "start": "serve -s .",
-    "build": "echo 'No build step required'"
-  },
-  "dependencies": {
-    "serve": "^14.2.1"
-  }
+  "description": "A static website for uploading and downloading ZIP files",
+  "main": "index.html"
 } 
