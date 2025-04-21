@@ -1,6 +1,5 @@
 {
   "name": "docfree",
   "version": "1.0.0",
-  "description": "A static website for uploading and downloading ZIP files",
-  "main": "index.html"
+  "private": true
 } 
