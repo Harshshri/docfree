@@ -1,5 +1,5 @@
 static_sites:
   - name: docfree
     type: static
-    buildCommand: mkdir -p public && cp index.html styles.css script.js public/
-    publishPath: public 
+    buildCommand: mkdir -p ./public && cp ./index.html ./styles.css ./script.js ./public/
+    publishPath: ./public 
