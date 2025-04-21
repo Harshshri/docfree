@@ -2,6 +2,7 @@ static_sites:
   - name: docfree
     type: static
     buildCommand: |
+      #!/bin/bash
       mkdir -p public
-      cp *.html *.css *.js *.json *.yaml public/
+      cp index.html styles.css script.js render.yaml public/
     publishPath: public 
